@@ -80,5 +80,4 @@ Two match settings are fixed in code: the copied instruction must be at least 12
 ```bash
 intentproof config set daily_ceiling 750
 intentproof config set api_keys your-real-key
-intentproof config set slack_webhook_url https://hooks.slack.com/services/...
 ```
