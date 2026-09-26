@@ -1,5 +1,5 @@
 [project]
-name = "intentproof"
+name = "intentproof-guard"
 version = "0.1.0"
 description = "Ask IntentProof before an AI agent is allowed to pay"
 readme = "README.md"
