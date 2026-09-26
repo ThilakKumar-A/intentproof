@@ -1,0 +1,14 @@
+services:
+  payguard:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      GUARD_API_KEYS: ${GUARD_API_KEYS:-dev}
+      GUARD_DB: /data/intentproof.db
+      SLACK_WEBHOOK_URL: ${SLACK_WEBHOOK_URL:-}
+    volumes:
+      - payguard-data:/data
+
+volumes:
+  payguard-data:
