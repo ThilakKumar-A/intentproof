@@ -5,7 +5,7 @@ An AI agent must ask IntentProof before it sends money. If the pay instruction c
 ## Install
 
 ```bash
-pip install intentproof
+pip install intentproof-guard
 intentproof serve
 ```
 
